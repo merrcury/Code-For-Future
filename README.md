@@ -1,5 +1,24 @@
 # Code-For-Future
 
+## Directory Structure
+    .
+    ├── Models      # Model's H5 File
+    |    └── reinf_traf_control.h5 # trained model
+    ├── .gitignore  #Git Ignore for Python
+    ├── DQNA.py     #Deep Reinforcement Learning Agent class          
+    ├── LICENSE     #MIT LICENSE          
+    ├── README.md   #README FILE     
+    ├── SUMOinter.py   #SUMO Intersection Creation & Handling File
+    ├── [clustering]vehicle_detection.py # Vehicle Detection using Clustering
+    ├── cross3ltl.sumocfg     #SIMULATION file        
+    ├── input_routes.rou.xml  #Inputing Routes XML file        
+    ├── net.net.xml              
+    ├── requirements.txt      # Requirements file
+    ├── road.mp4              # A Random Traffic Vedio
+    └── traffic_light.py      # Traffic Light Control
+ 
+ **Note**: _All Standard Inspiration of Intersection design is from World Wide Web Consortium (W3C)._
+ 
 ## Set Up
 I recommend, you to work in a virtual environment because This project uses some older version of the libraries and preventing this project to interfere with other projects. In your project directory, let's start off by creating a virtualenv:
 ``` bash 
