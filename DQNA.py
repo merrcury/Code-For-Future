@@ -1,3 +1,9 @@
+from collections import deque
+from keras.layers import Input, Conv2D, Flatten, Dense
+import keras
+from keras.models import Model
+import numpy as np
+import random
 class DQNAgent:
     def __init__(self):
         self.gamma = 0.95   # discount rate

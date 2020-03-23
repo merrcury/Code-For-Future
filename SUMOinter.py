@@ -1,3 +1,7 @@
+import optparse
+import random
+import traci 
+import numpy as np
 class SumoIntersection:
 
     def generate_routefile(self):
