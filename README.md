@@ -97,3 +97,10 @@ next state. Change would include following :-
 
 Green light term is 10 seconds and yellow light span is 6 seconds. So at each time step, 
 operator may choose to keep a similar state or change the state.
+
+## LICENSE
+This repository is released under **MIT LICENSE**.
+
+DEMO Video is released under **Creative Commons Attribution licence** (Reuse Allowed).
+
+`road.mp4` was initally released under **Creative Commons Attribution licence** (Reuse Allowed) by Karol Majek. Now, That video is part of this repository too under MIT LICENSE & **I'm hereby crediting video's original author for his work**.
