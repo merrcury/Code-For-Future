@@ -1,10 +1,14 @@
 # Code-For-Future
 
+## Design Overview
+![Basic Design](https://raw.githubusercontent.com/merrcury/Code-For-Future/master/Basic_Design.svg?sanitize=true)
+
 ## Directory Structure
     .
     ├── Models      # Model's H5 File
     |    └── reinf_traf_control.h5 # trained model
     ├── .gitignore  #Git Ignore for Python
+    ├── Basic_Design.svg
     ├── DQNA.py     #Deep Reinforcement Learning Agent class          
     ├── LICENSE     #MIT LICENSE          
     ├── README.md   #README FILE     
